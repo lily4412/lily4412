@@ -72,3 +72,9 @@ I'm Likitha, a passionate full-stack developer with hands-on experience in **SAP
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10" />
 </p>
+
+---
+
+### 💬 Favorite Quote
+
+> "Code is like humor. When you have to explain it, it’s bad." – Cory House
