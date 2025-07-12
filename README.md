@@ -18,7 +18,7 @@ Here are some details about me:
 - 👯 I’m looking to collaborate on: full-stack web projects, portfolio websites, and open-source tools
 - 🤔 I’m looking for help with: integrating backend APIs with hardware like **Raspberry Pi**
 - 💬 Ask me about: frontend animations, GitHub Projects, and learning full-stack development from scratch!
-- 📫 How to reach me: [youremail@example.com]
+- 📫 How to reach me: [likhitha.desala@gmail.com]
 - 😄 Pronouns: she/her
 - ⚡ Fun fact: I love mixing design + code to create smooth parallax and 3D effects ✨
 
