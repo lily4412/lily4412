@@ -1,5 +1,5 @@
 <h1 align="center">Hi there 👋, I'm Likitha</h1>
-<h3 align="center">Full-Stack Developer | SAP ABAP Developer | UI & Cybersecurity Enthusiast</h3>
+<h3 align="center">Full-Stack Developer | SAP ABAP Consultant | UI/UX & Cybersecurity Enthusiast</h3>
 
 <p align="center">
   <img src="Me.png" alt="Girl Developer Banner" width="500"/>
@@ -13,14 +13,15 @@
 
 ### 🌟 About Me
 
-I'm Likitha, a passionate full-stack developer with hands-on experience in **SAP ABAP** and frontend/backend web development. I love building clean UIs, experimenting with parallax/3D effects, and exploring backend technologies and cybersecurity. I’m committed to shipping real, useful projects.
+I'm Likitha, a creative full-stack developer with professional experience in **SAP ABAP** and a love for clean UI, performance, and security. I enjoy blending elegant frontend design with powerful backend logic. Currently, I’m diving deeper into **modern frameworks**, **AI integration**, and **cloud-native development**.
 
-- 🔭 Currently building: Full-stack apps, SAP-based tools, UI projects  
-- 🌱 Learning: React, Next.js, Supabase, Go, Cybersecurity tools, AI APIs  
+- 🔭 Currently building: Real-world full-stack SaaS apps, SAP automation tools  
+- 🌱 Learning: **Next.js**, **Supabase**, **Go**, **Docker**, **AI APIs**, **Tailwind CSS Pro**  
 - 🛠 Certified by: Microsoft, IBM, Harvard, LinkedIn, FreeCodeCamp  
-- 🏆 Achievements: GAIT Bronze | 5★ Python, Java, Problem Solving on HackerRank  
-- 📫 Reach me at: likhitha.desala@gmail.com 
-- ⚡ Fun fact: I mix design and code to make even enterprise apps beautiful ✨
+- 🧠 Interests: Web Security, API Design, UI Microinteractions, 3D Web & DevOps  
+- 🏆 Notable: GAIT Bronze | 5★ Python, Java, Problem Solving – HackerRank  
+- 📫 Reach me at: **likhitha.desala@gmail.com**  
+- ⚡ Fun fact: I use Tailwind just as much as caffeine ☕  
 
 ---
 
@@ -28,29 +29,30 @@ I'm Likitha, a passionate full-stack developer with hands-on experience in **SAP
 
 <p align="left">
   <!-- Programming Languages -->
-  <a href="https://www.cprogramming.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/></a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/></a>
-  <a href="https://www.python.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
-  <a href="https://www.java.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/></a>
+  <a href="https://www.python.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
+  <a href="https://www.java.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/></a>
+  <a href="https://golang.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="Go" width="40" height="40"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/></a>
 
-  <!-- Web Development -->
-  <a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/></a>
-  <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/></a>
-  <a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/></a>
-  <a href="https://getbootstrap.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40"/></a>
-  <a href="https://tailwindcss.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/></a>
+  <!-- Frontend -->
+  <a href="https://react.dev/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/></a>
+  <a href="https://nextjs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="Next.js" width="40" height="40"/></a>
+  <a href="https://tailwindcss.com/"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/></a>
 
-  <!-- Backend & Databases -->
-  <a href="https://nodejs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/></a>
-  <a href="https://expressjs.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="40" height="40"/></a>
-  <a href="https://www.mongodb.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/></a>
+  <!-- Backend -->
+  <a href="https://nodejs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/></a>
+  <a href="https://expressjs.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="40" height="40"/></a>
+  <a href="https://supabase.com/"><img src="https://avatars.githubusercontent.com/u/54469796?s=200&v=4" alt="Supabase" width="40" height="40"/></a>
+
+  <!-- Databases -->
+  <a href="https://www.mongodb.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/></a>
+  <a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/></a>
 
   <!-- Tools -->
-  <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/></a>
-  <a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/></a>
-  <a href="https://code.visualstudio.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/></a>
+  <a href="https://git-scm.com/"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/></a>
+  <a href="https://github.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/></a>
+  <a href="https://code.visualstudio.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/></a>
+  <a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/></a>
 </p>
 
 ---
@@ -71,14 +73,23 @@ I'm Likitha, a passionate full-stack developer with hands-on experience in **SAP
 
 ---
 
-### 🏆 GitHub Achievements
+### 🚀 Achievements & Highlights
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=lily4412&theme=gruvbox&no-frame=true&title=Stars,Commits,Repositories,PullRequest,Followers,Issues" />
+</p>
+
+<p align="center">
+  🎯 **100+ Commits** in 2024 & counting  
+  🌐 Built apps with real-world use cases  
+  📦 Explored open-source and contributed to internal SAP tools  
+  💡 Passionate about lifelong learning & community building  
 </p>
 
 ---
 
 ### 💬 Favorite Quote
 
-> "Code is like humor. When you have to explain it, it’s bad." – Cory House
+> *"Code is like humor. When you have to explain it, it’s bad."* – Cory House
+
+---
