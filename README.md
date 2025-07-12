@@ -1,12 +1,13 @@
-<h1 align="center">Hi there 👋, I'm <h1 align="center">Hi there 👋, I'm Likitha</h1>
+h1 align="center">Hi there 👋, I'm Likitha</h1>
 <h3 align="center">Full-Stack Developer | SAP ABAP Developer | UI & Cybersecurity Enthusiast</h3>
 
-<img align="right" alt="Girl coding and sipping coffee" width="300" src="https://your-lottie-link-here.json"/>
+<p align="center">
+  <img src="assets/banner.png" alt="Girl Developer Banner" width="500"/>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
-
 ---
 
 ### 🌟 About Me
