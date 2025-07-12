@@ -20,7 +20,7 @@ I'm Likitha, a passionate full-stack developer with hands-on experience in **SAP
 - 🛠 Certified by: Microsoft, IBM, Harvard, LinkedIn, FreeCodeCamp  
 - 🏆 Achievements: GAIT Bronze | 5★ Python, Java, Problem Solving on HackerRank  
 - 📫 Reach me at: likhitha.desala@gmail.com 
-- ⚡ Fun fact: I mix design and code to make even enterprise apps beautiful ✨
+- ⚡ Fun fact: I once fixed a bug by taking a nap. ✨
 
 ---
 
