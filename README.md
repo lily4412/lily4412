@@ -54,7 +54,7 @@
 
 ###  GitHub Streak
 
-![GitHub Streak]("https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=radical")
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=radical)
 
 
 ###  Top Languages
