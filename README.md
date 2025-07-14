@@ -2,14 +2,12 @@
 <h3 align="center">Full-Stack Developer | SAP ABAP Developer | UI & Cybersecurity Enthusiast</h3>
 
 <p align="center">
-  <img src="Me.png" alt="Likitha Avatar" width="300" />
-</p>
-
-<p align="center">
   <img src="https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
----
+<table>
+  <tr>
+    <td>
 
 ### 🌟 About Me
 
@@ -18,6 +16,13 @@
 - 💬 Ask me about **React, MERN stack, SAP ABAP, and UI design**
 - 📫 How to reach me **likhitha.desala@gmail.com**
 - ⚡ Fun fact: **I once fixed a bug by taking a nap. ✨**
+
+</td>
+<td align="center" width="300">
+  <img src="d13d7a1c-9dfb-4326-9d4d-b28dd14105a9.png" alt="Likitha Avatar" width="250" />
+</td>
+  </tr>
+</table>
 
 ---
 
