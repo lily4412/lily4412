@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Likitha</h1>
 <h3 align="center">Full-Stack Developer | SAP ABAP Developer | UI & Cybersecurity Enthusiast</h3>
 
-<img align="right" alt="Coding Girl" width="200" src="Me.png" />
+<img align="right" alt="Coding Girl" width="300" src="Me.png" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat" alt="lily4412"/> </p>
 
