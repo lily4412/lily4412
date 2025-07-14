@@ -52,7 +52,7 @@
 
 <h3 align="left">🏆 GitHub Achievements:</h3>
 
-<p align="center">
+<p align="left">
   <img src="https://github-profile-trophy.vercel.app/?username=lily4412&theme=gruvbox&margin-w=10&no-frame=true" alt="GitHub Achievements"/>
 </p>
 
