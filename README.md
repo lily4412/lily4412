@@ -3,7 +3,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat)
 
-<img align="right" alt="Girl Developer" width="300" src="./Me.png" />
+<img align="left" alt="Girl Developer" width="250" src="./Me.png" />
 
 ###  About Me
 
