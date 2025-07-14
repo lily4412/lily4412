@@ -5,7 +5,7 @@
 
 <img align="right" alt="Girl Developer" width="250" src="./Me.png" />
 
-###  About Me
+About Me
 
 - 🔭 Currently building **full-stack apps, SAP-based tools, UI experiments**
 - 🌱 Learning **React, Supabase, Go, Cybersecurity tools, AI APIs**
