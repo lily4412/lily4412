@@ -11,12 +11,6 @@
 - 📫 How to reach me: **likhitha.desala@gmail.com**
 - ⚡ Fun fact: **I once fixed a bug by taking a nap ✨**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="mailto:likhitha.desala@gmail.com"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="email" width="30" height="30" /></a>
-  <a href="https://discord.com/invite/yourdiscordid" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="discord" height="30" width="40" /></a>
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="#"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/></a>
