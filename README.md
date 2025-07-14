@@ -54,4 +54,41 @@
 ### 🔥 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme_
+  <img src="https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme=radical" />
+</p>
+
+---
+
+### 📈 Streak & Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=radical" />
+</p>
+
+[![Likitha's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=lily4412&theme=tokyo-night)](https://github.com/lily4412)
+
+---
+
+### 📌 Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lily4412&layout=compact&theme=radical" />
+</p>
+
+---
+
+### 🏅 GitHub Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10" />
+</p>
+
+---
+
+### 💡 Quote I Live By
+
+> “Code is like humor. When you have to explain it, it’s bad.” – *Cory House*
+
+---
+
+> 🚀 *Feel free to connect, collaborate, or just say hi!*
