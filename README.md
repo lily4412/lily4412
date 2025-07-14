@@ -56,9 +56,6 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=radical)
 
-### 🌐 Activity Graph
-
-[![Likitha's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lily4412&theme=tokyo-night)](https://github.com/lily4412)
 
 ### 🔠 Top Languages
 
@@ -67,6 +64,10 @@
 ### 🏅 GitHub Achievements
 
 ![Achievements](https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10)
+
+### 🌐 Activity Graph
+
+[![Likitha's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lily4412&theme=tokyo-night)](https://github.com/lily4412)
 
 ### 💬 Favorite Quote
 
