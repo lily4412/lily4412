@@ -18,7 +18,6 @@
   <img src="https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
----
 
 ### 🛠️ Languages & Tools
 
@@ -49,15 +48,11 @@
   <a href="https://code.visualstudio.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/></a>
 </p>
 
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme=radical" />
 </p>
-
----
 
 ### 🔥 GitHub Streak
 
@@ -65,15 +60,11 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=dark" />
 </p>
 
----
-
 ### 🏆 GitHub Achievements
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10" />
 </p>
-
----
 
 ### 💬 Favorite Quote
 
