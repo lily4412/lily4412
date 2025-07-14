@@ -52,32 +52,26 @@
 </p>
 
 
-<h2> GitHub Stats</h2>
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme=radical" />
-</p>
+## 📊 GitHub Stats
 
-<h2> GitHub Streak</h2>
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=radical" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme=radical)
 
-<h2> Activity Graph</h2>
-<p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lily4412&theme=tokyo-night" />
-</p>
+## 📈 GitHub Streak
 
-<h2> Top Languages</h2>
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lily4412&layout=compact&theme=radical" />
-</p>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=radical)
 
-<h2> GitHub Achievements</h2>
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10" />
-</p>
+## 🌐 Activity Graph
 
-<h2> Favorite Quote</h2>
-<blockquote>
-  “Code is like humor. When you have to explain it, it’s bad.” – <em>Cory House</em>
-</blockquote>
+[![Likitha's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lily4412&theme=tokyo-night)](https://github.com/lily4412)
+
+## 🔠 Top Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=lily4412&layout=compact&theme=radical)
+
+## 🏅 GitHub Achievements
+
+![Achievements](https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10)
+
+## 💬 Favorite Quote
+
+> “Code is like humor. When you have to explain it, it’s bad.” – *Cory House*
