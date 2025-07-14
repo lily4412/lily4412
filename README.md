@@ -3,25 +3,23 @@
 
 <p><img src="https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" /></p>
 
-<img align="right" alt="Girl Developer" width="300" src="Me.png" />
+<!-- Profile Image: No borders, floated right -->
+<img src="Me.png" alt="Girl Developer" width="300" align="right" style="border: none; box-shadow: none;"/>
 
 <h2>💫 About Me</h2>
 <ul>
-  <li>🔭 Currently building <strong>full-stack apps, SAP-based tools, UI experiments</strong></li>
+  <li>🛠️ Currently building <strong>full-stack apps, SAP-based tools, UI experiments</strong></li>
   <li>🌱 Learning <strong>React, Supabase, Go, Cybersecurity tools, AI APIs</strong></li>
-  <li>🛠 Certified by <strong>Microsoft, IBM, Harvard, LinkedIn, FreeCodeCamp</strong></li>
+  <li>📜 Certified by <strong>Microsoft, IBM, Harvard, LinkedIn, FreeCodeCamp</strong></li>
   <li>🏆 Achievements: <strong>GAIT Bronze</strong>, 5★ on <strong>Python, Java, Problem Solving @ HackerRank</strong></li>
   <li>📫 Reach me at <a href="mailto:likhitha.desala@gmail.com">likhitha.desala@gmail.com</a></li>
   <li>⚡ Fun fact: I once fixed a bug by taking a nap!</li>
 </ul>
 
-<h2>🔗 Connect with Me</h2>
+<h2>📬 Connect with Me</h2>
 <p>
   <a href="mailto:likhitha.desala@gmail.com">
     <img src="https://img.icons8.com/color/48/gmail--v1.png" alt="Gmail" width="30" />
-  </a>
-  <a href="https://linkedin.com/in/your-link">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="30" />
   </a>
 </p>
 
