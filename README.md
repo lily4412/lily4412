@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Likitha</h1>
 <h3 align="center">Full-Stack Developer | SAP ABAP Developer | UI & Cybersecurity Enthusiast</h3>
 
-<p align="center">
-  <img src="d13d7a1c-9dfb-4326-9d4d-b28dd14105a9.png" alt="Likitha Avatar" width="300" />
+<p align="right">
+  <img src="Me.png" alt="Likitha Avatar" width="300" />
 </p>
 
 <p align="center">
