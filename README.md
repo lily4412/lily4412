@@ -3,36 +3,20 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat)
 
-<table>
-  <tr>
-    <td style="vertical-align: top;">
-      <h3>About Me</h3>
-      <ul>
-        <li>🔭 Currently building <b>full-stack apps, SAP-based tools, UI experiments</b></li>
-        <li>🌱 Learning <b>React, Supabase, Go, Cybersecurity tools, AI APIs</b></li>
-        <li>🛠 Certified by <b>Microsoft, IBM, Harvard, LinkedIn, FreeCodeCamp</b></li>
-        <li>🏆 Achievements: <b>GAIT Bronze</b>, 5★ on <b>Python, Java, Problem Solving @ HackerRank</b></li>
-        <li>📫 Reach me at <b>likhitha.desala@gmail.com</b></li>
-        <li>⚡ Fun fact: <i>I once fixed a bug by taking a nap!</i></li>
-      </ul>
-    </td>
-    <td style="padding-left: 20px;">
-      <img src="./Me.png" alt="Girl Developer" width="250"/>
-    </td>
-  </tr>
-</table>
+<img align="right" alt="Girl Developer" width="250" src="./Me.png" />
 
-<h3>Connect with Me</h3>
-<a href="mailto:likhitha.desala@gmail.com" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.icons8.com/color/48/gmail--v1.png" alt="Gmail" width="30"/>
-</a>
+###  About Me
 
+- 🔭 Currently building **full-stack apps, SAP-based tools, UI experiments**
+- 🌱 Learning **React, Supabase, Go, Cybersecurity tools, AI APIs**
+- 🛠 Certified by **Microsoft, IBM, Harvard, LinkedIn, FreeCodeCamp**
+- 🏆 Achievements: **GAIT Bronze**, 5★ on **Python, Java, Problem Solving @ HackerRank**
+- 📫 Reach me at **likhitha.desala@gmail.com**
+- ⚡ Fun fact: *I once fixed a bug by taking a nap!*
 
 ###  Connect with Me
 
-<a href="mailto:likhitha.desala@gmail.com" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.icons8.com/color/48/gmail--v1.png" alt="Gmail" width="30"/>
-</a>
+<a href="mailto:likhitha.desala@gmail.com"><img src="https://img.icons8.com/color/48/gmail--v1.png" alt="Gmail" width="30"/></a>
 
 ### Languages & Tools
 
