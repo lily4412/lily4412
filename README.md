@@ -5,7 +5,7 @@
 
 <img align="right" alt="Girl Developer" width="300" src="./Me.png" />
 
-### 💫 About Me
+###  About Me
 
 - 🔭 Currently building **full-stack apps, SAP-based tools, UI experiments**
 - 🌱 Learning **React, Supabase, Go, Cybersecurity tools, AI APIs**
@@ -14,11 +14,11 @@
 - 📫 Reach me at **likhitha.desala@gmail.com**
 - ⚡ Fun fact: *I once fixed a bug by taking a nap!*
 
-### 🔗 Connect with Me
+###  Connect with Me
 
 <a href="mailto:likhitha.desala@gmail.com"><img src="https://img.icons8.com/color/48/gmail--v1.png" alt="Gmail" width="30"/></a>
 
-### 🛠️ Languages & Tools
+### Languages & Tools
 
 <p align="left">
   <!-- Programming Languages -->
@@ -48,24 +48,24 @@
 </p>
 
 
-### 📊 GitHub Stats
+###  GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme=radical)
 
-### 📈 GitHub Streak
+###  GitHub Streak
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lily4412&theme=radical)
 
 
-### 🔠 Top Languages
+###  Top Languages
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=lily4412&layout=compact&theme=radical)
 
-### 🏅 GitHub Achievements
+###  GitHub Achievements
 
 ![Achievements](https://github-profile-trophy.vercel.app/?username=lily4412&theme=dracula&no-frame=true&margin-w=10)
 
-### 🌐 Activity Graph
+###  Activity Graph
 
 [![Likitha's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lily4412&theme=tokyo-night)](https://github.com/lily4412)
 
