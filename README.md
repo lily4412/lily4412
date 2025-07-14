@@ -19,7 +19,7 @@
 
 </td>
 <td align="center" width="300">
-  <img src="d13d7a1c-9dfb-4326-9d4d-b28dd14105a9.png" alt="Likitha Avatar" width="250" />
+  <img src="Me.png" alt="Likitha Avatar" width="250" />
 </td>
   </tr>
 </table>
