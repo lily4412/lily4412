@@ -3,7 +3,7 @@
 
 <img align="right" alt="Coding Girl" width="400" src="Me.png" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat" alt="lily4412" height = 300px/> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=lily4412&label=Profile%20views&color=0e75b6&style=flat" alt="lily4412" height = "300"/> </p>
 
 - 🔭 I’m currently working on **Full-stack apps, SAP-based tools, and UI projects**
 - 🌱 I’m currently learning **Next.js, Supabase, Go, Cybersecurity tools, AI APIs**
