@@ -9,7 +9,7 @@
 
 - 🔭 Currently building **full-stack apps, SAP-based tools, UI experiments**
 - 🌱 Learning **React, Supabase, Go, Cybersecurity tools, AI APIs**
-- 🛠 Certified by **Microsoft, IBM, Harvard, LinkedIn, FreeCodeCamp**
+- 🛠 Certified by **Harvard, LinkedIn, FreeCodeCamp**
 - 🏆 Achievements: **GAIT Bronze**, 5★ on **Python, Java, Problem Solving @ HackerRank**
 - 📫 Reach me at **likhitha.desala@gmail.com**
 - ⚡ Fun fact: *I once fixed a bug by taking a nap!*
