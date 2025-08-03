@@ -49,7 +49,7 @@
 
 ## TryHackMe Profile
 
-[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/4268740.png)](https://tryhackme.com/p/4268740)
+![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/4268740.png)
 
 ###  GitHub Stats
 
