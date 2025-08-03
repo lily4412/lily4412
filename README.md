@@ -47,9 +47,10 @@
   <a href="https://code.visualstudio.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/></a>
 </p>
 
-### TryHackMe Stats
+## TryHackMe Profile
 
-![TryHackMe Stats](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4268740)
+[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/4268740.png)](https://tryhackme.com/p/4268740)
+
 ###  GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme=radical)
