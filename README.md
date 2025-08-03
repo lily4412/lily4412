@@ -49,8 +49,7 @@
 
 ### TryHackMe Stats
 
-![TryHackMe Stats](<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4268740" style='border:none;'></iframe>)
-
+![TryHackMe Stats](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4268740)
 ###  GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lily4412&show_icons=true&theme=radical)
