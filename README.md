@@ -47,7 +47,7 @@
   <a href="https://code.visualstudio.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/></a>
 </p>
 
-## TryHackMe Profile
+### TryHackMe Profile
 
 <!-- THM-STATS:START -->
 <!-- THM-STATS:END -->
