@@ -25,16 +25,20 @@ jobs:
           API="https://tryhackme.com/api/v2/public-profile?username=${USERNAME}"
           echo "Fetching ${API}"
           curl -s "${API}" -o profile.json || true
-          points=$(jq -r '.points // "N/A"' profile.json)
-          rank=$(jq -r '.rank // "N/A"' profile.json)
-          rooms=$(jq -r '.roomsCompleted // "N/A"' profile.json)
+          
+          # Parse correct JSON structure
+          points=$(jq -r '.data.points // "N/A"' profile.json)
+          rank=$(jq -r '.data.rank // "N/A"' profile.json)
+          rooms=$(jq -r '.data.completedRooms // "N/A"' profile.json)
+
           echo "Points: ${points} | Rank: ${rank} | Rooms: ${rooms}" > stats_line.txt
-          echo "points=${points}" ; echo "rank=${rank}" ; echo "rooms=${rooms}"
+          echo "points=${points}"
+          echo "rank=${rank}"
+          echo "rooms=${rooms}"
 
       - name: Create badge image
         run: |
           STATS_LINE=$(cat stats_line.txt)
-          # create a simple PNG badge (background + centered text)
           convert -size 700x90 xc:'#111827' -gravity center \
             -font DejaVu-Sans -pointsize 20 -fill white \
             -annotate +0+0 "${STATS_LINE}" tryhackme-badge.png
