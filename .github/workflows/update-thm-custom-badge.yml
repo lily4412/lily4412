@@ -1,0 +1,52 @@
+name: Update TryHackMe Custom Badge
+on:
+  schedule:
+    - cron: '0 0 * * *'   # runs daily at midnight UTC
+  workflow_dispatch:     # allows manual run
+
+permissions:
+  contents: write
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl imagemagick
+
+      - name: Fetch TryHackMe stats
+        run: |
+          USERNAME="lily442"
+          API="https://tryhackme.com/api/v2/public-profile?username=${USERNAME}"
+          echo "Fetching ${API}"
+          curl -s "${API}" -o profile.json || true
+          points=$(jq -r '.points // "N/A"' profile.json)
+          rank=$(jq -r '.rank // "N/A"' profile.json)
+          rooms=$(jq -r '.roomsCompleted // "N/A"' profile.json)
+          echo "Points: ${points} | Rank: ${rank} | Rooms: ${rooms}" > stats_line.txt
+          echo "points=${points}" ; echo "rank=${rank}" ; echo "rooms=${rooms}"
+
+      - name: Create badge image
+        run: |
+          STATS_LINE=$(cat stats_line.txt)
+          # create a simple PNG badge (background + centered text)
+          convert -size 700x90 xc:'#111827' -gravity center \
+            -font DejaVu-Sans -pointsize 20 -fill white \
+            -annotate +0+0 "${STATS_LINE}" tryhackme-badge.png
+          ls -lh tryhackme-badge.png
+
+      - name: Commit & push badge
+        env:
+          GIT_AUTHOR_NAME: "github-actions[bot]"
+          GIT_AUTHOR_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+        run: |
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+          git add tryhackme-badge.png
+          git commit -m "Update TryHackMe badge" || echo "No changes to commit"
+          git push
