@@ -1,56 +1,41 @@
-name: Update TryHackMe Custom Badge
+name: Update TryHackMe Stats
+
 on:
   schedule:
-    - cron: '0 0 * * *'   # runs daily at midnight UTC
-  workflow_dispatch:     # allows manual run
-
-permissions:
-  contents: write
+    - cron: "0 0 * * *" # every day at midnight UTC
+  workflow_dispatch: # allow manual run
 
 jobs:
-  update-badge:
+  update-thm:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq curl imagemagick
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Fetch TryHackMe stats
         run: |
           USERNAME="lily442"
           API="https://tryhackme.com/api/v2/public-profile?username=${USERNAME}"
-          echo "Fetching ${API}"
-          curl -s "${API}" -o profile.json || true
-          
-          # Parse correct JSON structure
-          points=$(jq -r '.data.points // "N/A"' profile.json)
-          rank=$(jq -r '.data.rank // "N/A"' profile.json)
-          rooms=$(jq -r '.data.completedRooms // "N/A"' profile.json)
+          JSON=$(curl -s "$API")
 
-          echo "Points: ${points} | Rank: ${rank} | Rooms: ${rooms}" > stats_line.txt
-          echo "points=${points}"
-          echo "rank=${rank}"
-          echo "rooms=${rooms}"
+          LEVEL=$(echo "$JSON" | jq -r '.data.level // "N/A"')
+          RANK=$(echo "$JSON" | jq -r '.data.rank // "N/A"')
+          ROOMS=$(echo "$JSON" | jq -r '.data.completedRoomsNumber // "N/A"')
 
-      - name: Create badge image
+          echo "### TryHackMe Profile" > thm-stats.md
+          echo "[![TryHackMe Badges](https://tryhackme-badges.s3.amazonaws.com/${USERNAME}.png)](https://tryhackme.com/p/${USERNAME})" >> thm-stats.md
+          echo "" >> thm-stats.md
+          echo "![Level](https://img.shields.io/badge/Level-$LEVEL-blue) ![Rank](https://img.shields.io/badge/Rank-$RANK-green) ![Rooms Completed](https://img.shields.io/badge/Rooms%20Completed-$ROOMS-yellow)" >> thm-stats.md
+
+      - name: Update README with new stats
         run: |
-          STATS_LINE=$(cat stats_line.txt)
-          convert -size 700x90 xc:'#111827' -gravity center \
-            -font DejaVu-Sans -pointsize 20 -fill white \
-            -annotate +0+0 "${STATS_LINE}" tryhackme-badge.png
-          ls -lh tryhackme-badge.png
+          sed -i '/<!-- THM-STATS:START -->/,/<!-- THM-STATS:END -->/c\<!-- THM-STATS:START -->\n'"$(cat thm-stats.md)"'\n<!-- THM-STATS:END -->' README.md
 
-      - name: Commit & push badge
-        env:
-          GIT_AUTHOR_NAME: "github-actions[bot]"
-          GIT_AUTHOR_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Commit changes
         run: |
-          git config user.name "$GIT_AUTHOR_NAME"
-          git config user.email "$GIT_AUTHOR_EMAIL"
-          git add tryhackme-badge.png
-          git commit -m "Update TryHackMe badge" || echo "No changes to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update TryHackMe stats" || echo "No changes to commit"
           git push
