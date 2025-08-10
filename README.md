@@ -49,7 +49,9 @@
 
 ## TryHackMe Profile
 
-![TryHackMe Badge](tryhackme-badge.png)
+<!-- THM-STATS:START -->
+<!-- THM-STATS:END -->
+
 
 ###  GitHub Stats
 
