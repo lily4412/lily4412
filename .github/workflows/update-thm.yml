@@ -2,49 +2,57 @@ name: Update TryHackMe Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Run daily at midnight UTC
-  workflow_dispatch: # Allow manual trigger
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
+  workflow_dispatch: # Allow manual run from GitHub Actions tab
 
 jobs:
-  update-thm:
+  update-thm-stats:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Install jq
-        run: sudo apt-get install -y jq
+        run: sudo apt-get install jq -y
 
       - name: Fetch TryHackMe stats
         run: |
           USERNAME="lily442"
           API="https://tryhackme.com/api/v2/public-profile?username=${USERNAME}"
+          echo "Fetching TryHackMe stats for $USERNAME"
           JSON=$(curl -s "$API")
 
           LEVEL=$(echo "$JSON" | jq -r '.data.level // "N/A"')
           RANK=$(echo "$JSON" | jq -r '.data.rank // "N/A"')
           ROOMS=$(echo "$JSON" | jq -r '.data.completedRoomsNumber // "N/A"')
 
-          echo "### TryHackMe Profile" > thm-stats.md
-          echo "[![TryHackMe Badges](https://tryhackme-badges.s3.amazonaws.com/${USERNAME}.png)](https://tryhackme.com/p/${USERNAME})" >> thm-stats.md
-          echo "" >> thm-stats.md
-          echo "🔗 [View my TryHackMe Profile](https://tryhackme.com/p/${USERNAME})" >> thm-stats.md
-          echo "" >> thm-stats.md
-          echo "![Level](https://img.shields.io/badge/Level-$LEVEL-blue) ![Rank](https://img.shields.io/badge/Rank-$RANK-green) ![Rooms Completed](https://img.shields.io/badge/Rooms%20Completed-$ROOMS-yellow)" >> thm-stats.md
+          {
+            echo "[![TryHackMe Badges](https://tryhackme-badges.s3.amazonaws.com/${USERNAME}.png)](https://tryhackme.com/p/${USERNAME})"
+            echo
+            echo "🔗 [View my TryHackMe Profile](https://tryhackme.com/p/${USERNAME})"
+            echo
+            echo "![Level](https://img.shields.io/badge/Level-${LEVEL}-blue) ![Rank](https://img.shields.io/badge/Rank-${RANK}-green) ![Rooms Completed](https://img.shields.io/badge/Rooms%20Completed-${ROOMS}-yellow)"
+          } > thm-stats.md
 
       - name: Update README with new stats
         run: |
           if grep -q '<!-- THM-STATS:START -->' README.md; then
-            sed -i '/<!-- THM-STATS:START -->/,/<!-- THM-STATS:END -->/c\<!-- THM-STATS:START -->\n'"$(cat thm-stats.md)"'\n<!-- THM-STATS:END -->' README.md
+            CONTENT=$(sed 's/[&/\]/\\&/g' thm-stats.md)
+            sed -i "/<!-- THM-STATS:START -->/,/<!-- THM-STATS:END -->/c<!-- THM-STATS:START -->\n$CONTENT\n<!-- THM-STATS:END -->" README.md
           else
-            echo -e "\n<!-- THM-STATS:START -->\n$(cat thm-stats.md)\n<!-- THM-STATS:END -->" >> README.md
+            cat >> README.md <<EOL
+
+<!-- THM-STATS:START -->
+$(cat thm-stats.md)
+<!-- THM-STATS:END -->
+EOL
           fi
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Update TryHackMe stats" || echo "No changes to commit"
           git push
