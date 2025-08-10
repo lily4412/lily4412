@@ -1,0 +1,17 @@
+name: Debug TryHackMe API
+on:
+  workflow_dispatch: # run manually from Actions tab
+
+jobs:
+  debug-thm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch TryHackMe API raw data
+        run: |
+          USERNAME="lily442"
+          API="https://tryhackme.com/api/v2/public-profile?username=${USERNAME}"
+          echo "Fetching: $API"
+          curl -s "$API" | jq . > api_response.json
+          
+          echo "=== RAW JSON RESPONSE ==="
+          cat api_response.json
