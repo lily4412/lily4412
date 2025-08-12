@@ -49,8 +49,7 @@
 
 ## TryHackMe Progress
 
-<html><iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4268740" style='border:none;'></iframe>
-</html>
+![TryHackMe Badge](tryhackme-badge.png)
 
 ###  GitHub Stats
 
