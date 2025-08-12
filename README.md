@@ -49,14 +49,8 @@
 
 ## TryHackMe Progress
 
-![TryHackMe Badge](tryhackme-badge.png)
-
-**Username:** lily442  
-**Level:** ![](tryhackme-level.txt)  
-**Streak:** ![](tryhackme-streak.txt) days  
-**Rank:** ![](tryhackme-rank.txt)  
-**Completed Rooms:** ![](tryhackme-rooms.txt)  
-**Top Percentage:** ![](tryhackme-toppercent.txt)%
+<html><iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4268740" style='border:none;'></iframe>
+</html>
 
 ###  GitHub Stats
 
