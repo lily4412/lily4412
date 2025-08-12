@@ -50,6 +50,7 @@
 ### TryHackMe Profile
 
 <!-- THM-STATS:START -->
+Points: "N/A" | Rank: 913297 | Rooms: 6
 <!-- THM-STATS:END -->
 
 
