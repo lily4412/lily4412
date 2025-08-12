@@ -1,45 +1,29 @@
 name: Update TryHackMe Stats
 
 on:
-  workflow_dispatch: # Manual trigger from GitHub UI
   schedule:
-    - cron: "0 * * * *" # Every hour
-  push:
-    branches:
-      - main
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch:
 
 jobs:
-  update-stats:
+  update-tryhackme-stats:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch TryHackMe Stats
+      - name: Fetch TryHackMe stats
         run: |
-          echo "Fetching: https://tryhackme.com/api/v2/public-profile?username=lily442"
-          RESPONSE=$(curl -s "https://tryhackme.com/api/v2/public-profile?username=lily442")
-          echo "=== RAW JSON RESPONSE ==="
-          echo "$RESPONSE"
-          POINTS=$(echo "$RESPONSE" | jq '.data.points // "N/A"')
-          RANK=$(echo "$RESPONSE" | jq '.data.rank // "N/A"')
-          ROOMS=$(echo "$RESPONSE" | jq '.data.completedRoomsNumber // "N/A"')
+          curl -s "https://tryhackme-badges.s3.amazonaws.com/lily442.png" -o tryhackme.png
 
-          echo "Points: $POINTS | Rank: $RANK | Rooms: $ROOMS" > thm-stats.md
-
-      - name: Update README.md
+      - name: Create styled badge
         run: |
-          if grep -q "<!-- THM-STATS:START -->" README.md; then
-            sed -i "/<!-- THM-STATS:START -->/,/<!-- THM-STATS:END -->/c\\<!-- THM-STATS:START -->\n$(cat thm-stats.md)\n<!-- THM-STATS:END -->" README.md
-          else
-            echo -e "\n<!-- THM-STATS:START -->\n$(cat thm-stats.md)\n<!-- THM-STATS:END -->" >> README.md
-          fi
+          convert tryhackme.png -resize 300x300 -bordercolor "#4CAF50" -border 10 styled-tryhackme.png
 
-      - name: Commit changes
+      - name: Commit and push updated stats
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Update TryHackMe stats" || echo "No changes to commit"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add styled-tryhackme.png
+          git commit -m "Update TryHackMe Stats"
           git push
