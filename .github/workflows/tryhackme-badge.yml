@@ -15,7 +15,7 @@ jobs:
       - name: Download TryHackMe badge
         run: |
           USERNAME="lily442" # Change to your TryHackMe username
-          curl -s "https://tryhackme-badges.s3.amazonaws.com/${USERNAME}.png" -o tryhackme-badge.png
+          curl -s "https://tryhackme-badges.s3.amazonaws.com/$lily442.png" -o tryhackme-badge.png
 
       - name: Commit and push changes
         run: |
