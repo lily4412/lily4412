@@ -47,9 +47,16 @@
   <a href="https://code.visualstudio.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/></a>
 </p>
 
-### TryHackMe Profile
+## TryHackMe Progress
 
 ![TryHackMe Badge](tryhackme-badge.png)
+
+**Username:** lily442  
+**Level:** ![](tryhackme-level.txt)  
+**Streak:** ![](tryhackme-streak.txt) days  
+**Rank:** ![](tryhackme-rank.txt)  
+**Completed Rooms:** ![](tryhackme-rooms.txt)  
+**Top Percentage:** ![](tryhackme-toppercent.txt)%
 
 ###  GitHub Stats
 
